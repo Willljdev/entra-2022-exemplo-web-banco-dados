@@ -13,11 +13,13 @@
         </tr>
     </thead>
     <tbody><!--Lugar dos registros da tabela-->
+        @foreach(var raca in ViewBag.Racas)
+        {
         <tr>
-            <td>1</td><!--Coluna específcia para body-->
-            <td>Pinscher</td>
-            <td>Cachorro</td>
+            <td>@raca.Id</td><!--Coluna específcia para body-->
+            <td>@raca.Nome</td>
+            <td>@raca.Especie</td>
         </tr>
-        
+        }
     </tbody>
 </table>
