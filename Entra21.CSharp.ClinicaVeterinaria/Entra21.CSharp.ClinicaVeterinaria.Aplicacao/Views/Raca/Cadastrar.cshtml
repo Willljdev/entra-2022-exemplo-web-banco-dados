@@ -5,11 +5,13 @@
 
 <form action="registrar" method="get">
     <div>
-        <label for="campo_nome" class="form-label">Nome</label>
+        <label for="campo_nome" class="form-label">
+            Nome<span class="text-danger fw-bold">*</span></label>
         <input type="text" id="campo_nome" name="nome" class="form-control" />
     </div>
     <div class="mb-3">
-        <label for="campo_especie" class="form-label">Espécie</label>
+        <label for="campo_especie" class="form-label">
+            Espécie<span class="text-danger fw-bold">*</span></label>
         <select id="campo_especie" name="especie" class="form-select">
             <option value="Cachorro">Cachorro</option>
             <option value="Gato">Gato</option>
