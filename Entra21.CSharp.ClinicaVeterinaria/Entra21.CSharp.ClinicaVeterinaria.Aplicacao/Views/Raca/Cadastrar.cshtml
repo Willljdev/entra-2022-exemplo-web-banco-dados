@@ -1,24 +1,23 @@
-﻿@*
-    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
-*@
-@{
+﻿@{
+    Layout = "~/Pages/Shared/_Layout.cshtml";
 }
 <h3>Cadastro de raça</h3>
 
 <form action="registrar" method="get">
     <div>
-        <label for="campo_nome">Nome</label>
-        <input type="text" id="campo_nome" name="nome" />
+        <label for="campo_nome" class="form-label">Nome</label>
+        <input type="text" id="campo_nome" name="nome" class="form-control" />
     </div>
-    <div>
-        <label for="campo_especie">Espécie</label>
-        <select id="campo_especie" name="especie">
+    <div class="mb-3">
+        <label for="campo_especie" class="form-label">Espécie</label>
+        <select id="campo_especie" name="especie" class="form-select">
             <option value="Cachorro">Cachorro</option>
             <option value="Gato">Gato</option>
         </select>
     </div>
-    <div>
-        <button type="submit">Salvar</button>
+    <div class="text-end">
+        <a href="/raca" class="btn btn-outline-danger">Cancelar</a>
+        <button type="submit" class="btn btn-success">Salvar</button>
     </div>
 
 </form>
