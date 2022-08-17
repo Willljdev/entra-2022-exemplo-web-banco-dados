@@ -17,6 +17,7 @@ namespace Entra21.CSharp.ClinicaVeterinaria.Repositorio
             var raca = _contexto.Racas.Where(x => x.Id == id).FirstOrDefault();
 
             _contexto.Racas.Remove(raca);
+            _contexto.SaveChanges();
         }
 
         public void Atualizar(Raca racaParaAlterar)

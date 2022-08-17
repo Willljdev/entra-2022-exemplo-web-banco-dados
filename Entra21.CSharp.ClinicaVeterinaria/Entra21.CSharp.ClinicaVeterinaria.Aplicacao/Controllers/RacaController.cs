@@ -50,5 +50,15 @@ namespace Entra21.CSharp.ClinicaVeterinaria.Aplicacao.Controllers
             _racaServico.Cadastrar(nome, especie);
             return RedirectToAction("Index");
         }
+
+        [Route("/raca/apagar")]
+        [HttpGet]
+
+        public IActionResult Apagar([FromQuery]int id)
+        {
+            _racaServico.Apagar(id);
+
+            return RedirectToAction("Index");
+        }
     }
 }
