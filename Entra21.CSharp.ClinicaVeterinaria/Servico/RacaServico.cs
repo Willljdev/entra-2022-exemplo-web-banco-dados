@@ -1,7 +1,7 @@
 ﻿using Entra21.CSharp.ClinicaVeterinaria.Repositorio;
 using Entra21.CSharp.ClinicaVeterinaria.Repositorio.BancoDados;
 using Entra21.CSharp.ClinicaVeterinaria.Repositorio.Entidades;
-using Entra21.CSharp.ClinicaVeterinaria.Servico.ViewModels;
+using Entra21.CSharp.ClinicaVeterinaria.Servico.ViewModels.Racas;
 using System;
 using System.Collections.Generic;
 using System.Linq;

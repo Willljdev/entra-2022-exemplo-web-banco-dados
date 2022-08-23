@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Entra21.CSharp.ClinicaVeterinaria.Servico.ViewModels
+namespace Entra21.CSharp.ClinicaVeterinaria.Servico.ViewModels.Racas
 {
     public class RacaEditarViewModel : RacaViewModel
     {

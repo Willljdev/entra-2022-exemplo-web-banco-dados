@@ -1,7 +1,7 @@
 ﻿using Entra21.CSharp.ClinicaVeterinaria.Repositorio.BancoDados;
 using Entra21.CSharp.ClinicaVeterinaria.Repositorio.Enums;
 using Entra21.CSharp.ClinicaVeterinaria.Servico;
-using Entra21.CSharp.ClinicaVeterinaria.Servico.ViewModels;
+using Entra21.CSharp.ClinicaVeterinaria.Servico.ViewModels.Racas;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Entra21.CSharp.ClinicaVeterinaria.Aplicacao.Controllers
