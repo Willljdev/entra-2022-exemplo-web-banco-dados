@@ -1,6 +1,4 @@
-﻿@{
-    Layout = "~/Pages/Shared/_Layout.cshtml";
-}
+﻿@model List<Raca>
 
 <h1>Lista de Raças</h1>
 
@@ -24,7 +22,7 @@
     </thead>
     <tbody>
         <!--Lugar dos registros da tabela-->
-        @foreach (var raca in ViewBag.Racas)
+        @foreach (var raca in Model)
         {
             <tr>
                 <td>@raca.Id</td><!--Coluna específcia para body-->

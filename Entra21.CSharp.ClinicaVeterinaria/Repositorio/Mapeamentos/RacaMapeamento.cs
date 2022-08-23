@@ -28,6 +28,19 @@ namespace Entra21.CSharp.ClinicaVeterinaria.Repositorio.Mapeamentos
                 .HasMaxLength(30)
                 .HasColumnName("nome")
                 .IsRequired();
+
+            builder.HasData(new Raca
+            {
+                Id = 1,
+                Nome = "Frajola",
+                Especie = "Gato"
+            },
+            new Raca
+            {
+                Id=2,
+                Nome = "Piupiu",
+                Especie = "Capivara"
+            });
         }
 
         
